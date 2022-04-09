@@ -1,4 +1,4 @@
-# AWFA - Attaché Work From Anywhere
+# AWFA - Attaché for Work From Anywhere
 
 The **AWFA** prototype device is using [Google Coral Dev Board](https://coral.ai/docs/dev-board/get-started) as a main processing / computing unit. Please follow these steps to prepare the working **AWFA** prototype device (these steps are for macOS operating system):
 
