@@ -61,5 +61,18 @@ CREATE TABLE IF NOT EXISTS sensors (
        status INT,
 PRIMARY KEY ((device_id)));
 
+CREATE TABLE IF NOT EXISTS visions (
+       device_id TEXT,
+       objects TEXT,
+       persons INT,
+       gender TEXT,
+       emotion TEXT,
+       pose TEXT,
+       action TEXT,
+       created TIMESTAMP,
+       notes TEXT,
+       status INT,
+PRIMARY KEY ((device_id)));
+
 
 
