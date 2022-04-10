@@ -46,3 +46,20 @@ CREATE TABLE IF NOT EXISTS connections (
 PRIMARY KEY ((user_id), connection_id))
 WITH CLUSTERING ORDER BY (connection_id DESC);
 
+CREATE TABLE IF NOT EXISTS sensors (
+       device_id TEXT,
+       latitude TEXT,
+       longitude TEXT,
+       altitude TEXT,
+       temperature TEXT,
+       humidity TEXT,
+       pressure TEXT,
+       light_intensity TEXT,
+       co2 TEXT,
+       created TIMESTAMP,
+       notes TEXT,
+       status INT,
+PRIMARY KEY ((device_id)));
+
+
+
