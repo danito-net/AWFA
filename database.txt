@@ -31,3 +31,18 @@ CREATE TABLE IF NOT EXISTS devices (
 PRIMARY KEY ((serial), device_id))
 WITH CLUSTERING ORDER BY (device_id DESC);
 
+CREATE TABLE IF NOT EXISTS connections (
+       connection_id TIMEUUID,
+       user_id TEXT,
+       device_id TEXT,
+       started TIMESTAMP,
+       finished TIMESTAMP,
+       latitude TEXT,
+       longitude TEXT,
+       altitude TEXT,
+       location TEXT,
+       notes TEXT,
+       status INT,
+PRIMARY KEY ((user_id), connection_id))
+WITH CLUSTERING ORDER BY (connection_id DESC);
+
