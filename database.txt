@@ -19,3 +19,15 @@ CREATE TABLE IF NOT EXISTS users (
 PRIMARY KEY ((email), user_id))
 WITH CLUSTERING ORDER BY (user_id DESC);
 
+CREATE TABLE IF NOT EXISTS devices (
+       serial TEXT,
+       description TEXT,
+       created TIMESTAMP,
+       activated TIMESTAMP,
+       last_edited TIMESTAMP,
+       notes TEXT,
+       status INT,
+       device_id UUID,
+PRIMARY KEY ((serial), device_id))
+WITH CLUSTERING ORDER BY (device_id DESC);
+
