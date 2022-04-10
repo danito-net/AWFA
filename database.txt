@@ -74,5 +74,32 @@ CREATE TABLE IF NOT EXISTS visions (
        status INT,
 PRIMARY KEY ((device_id)));
 
+CREATE TABLE IF NOT EXISTS posenets (
+       device_id TEXT,
+       persons INT,
+       NOSE TEXT,
+       LEFT_EYE TEXT,
+       RIGHT_EYE TEXT,
+       LEFT_EAR TEXT,
+       RIGHT_EAR TEXT,
+       LEFT_SHOULDER TEXT,
+       RIGHT_SHOULDER TEXT,
+       LEFT_ELBOW TEXT,
+       RIGHT_ELBOW TEXT,
+       LEFT_WRIST TEXT,
+       RIGHT_WRIST TEXT,
+       LEFT_HIP TEXT,
+       RIGHT_HIP TEXT,
+       LEFT_KNEE TEXT,
+       RIGHT_KNEE TEXT,
+       LEFT_ANKLE TEXT,
+       RIGHT_ANKLE TEXT,
+       created TIMESTAMP,
+       notes TEXT,
+       status INT,
+PRIMARY KEY ((device_id)));
+
+
+
 
 
