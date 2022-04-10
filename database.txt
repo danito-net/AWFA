@@ -99,6 +99,21 @@ CREATE TABLE IF NOT EXISTS posenets (
        status INT,
 PRIMARY KEY ((device_id)));
 
+CREATE TABLE IF NOT EXISTS attendance_rules (
+       attendance_rules_id UUID,
+       check_in TEXT,
+       chech_out TEXT,
+       break_start TEXT,
+       break_finish TEXT,
+       overtime_start TEXT,
+       overtime_finish TEXT,
+       overtime_on_holiday_start TEXT,
+       overtime_on_holiday_finish TEXT,
+       created TIMESTAMP,
+       last_update TIMESTAMP,
+       notes TEXT,
+       status INT,
+PRIMARY KEY ((attendance_rules_id)));
 
 
 
