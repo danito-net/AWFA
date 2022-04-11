@@ -115,6 +115,16 @@ CREATE TABLE IF NOT EXISTS attendance_rules (
        status INT,
 PRIMARY KEY ((attendance_rules_id)));
 
+CREATE TABLE IF NOT EXISTS audios (
+       attache_id TEXT,
+       audio BLOB,
+       transcription TEXT,
+       created TIMESTAMP,
+       last_edited TIMESTAMP,
+       notes TEXT,
+       status INT,
+       audio_id UUID,
+PRIMARY KEY ((audio_id), attache_id));
 
 
 
