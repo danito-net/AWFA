@@ -9,3 +9,15 @@ The **AWFA** prototype device is using [Google Coral Dev Board](https://coral.ai
 * While the card is being flashed, make sure the Google Coral Dev Board is completely unplugged, and change the boot mode switches to boot from SD card, as shown in figure 1.
 * Once the card is flashed, safely remove it from your computer and insert it into the Dev Board (the card's pins face toward the board). The board should **NOT** be powered on yet.
 * Power up the board by connecting your 2-3 A power cable to the USB-C port labeled "PWR" (see figure 3). The board's red LED should turn on.
+
+
+#### 1.19. Setting Virtual Environment, Install PIP and Install DataStax Python Driver ####
+
+    sudo apt install python3-venv
+    python3 -m venv awfa-env
+    source awfa-env/bin/activate
+    wget https://bootstrap.pypa.io/get-pip.py
+    sudo python3 get-pip.py
+    pip install cassandra-driver
+    python -c 'import cassandra; print (cassandra.__version__)'
+    
