@@ -21,6 +21,8 @@ The **AWFA** prototype device is using [Google Coral Dev Board](https://coral.ai
 
 ![](https://awfa.danito.id/images/awfa-google-coral-emmc-boot-mode-switch-640px.jpg)
 
+* Connect the board to power and it should now boot up Mendel Linux. Booting up for the first time after flashing takes about 3 minutes (subsequent boot times are much faster). 
+
 
 
 #### 1.19. Setting Virtual Environment, Install PIP and Install DataStax Python Driver ####
