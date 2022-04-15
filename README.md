@@ -45,7 +45,7 @@ The **AWFA** prototype device is using [Google Coral Dev Board](https://coral.ai
 * Add this line into the cron table on Mendel Linux, and then save it:
 
 
-    @reboot bash /home/mendel/awfa.sh
+`    @reboot bash /home/mendel/awfa.sh `
 
     
     
