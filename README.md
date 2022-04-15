@@ -21,3 +21,16 @@ The **AWFA** prototype device is using [Google Coral Dev Board](https://coral.ai
     pip install cassandra-driver
     python -c 'import cassandra; print (cassandra.__version__)'
     
+
+
+#### 1.20. Make An Automatic Running Script on Boot ####
+
+* Placed the main script for AWFA device on Google Coral default user home directory (`/home/mendel/awfa.sh`).
+* Make that script executable: 
+    chmod +x /home/mendel/awfa.sh
+* Add that script to the cron table on Mendel Linux:
+    crontab -e
+* Add this line into the cron table on Mendel Linux, and then save it:
+    @reboot bash /home/mendel/awfa.sh
+    
+    
