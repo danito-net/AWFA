@@ -14,7 +14,11 @@ The **AWFA** prototype device is using [Google Coral Dev Board](https://coral.ai
 ![](https://awfa.danito.id/images/awfa-google-coral-emmc-boot-mode-switch-640px.jpg)
 
 * Once the card is flashed, safely remove it from your computer and insert it into the Dev Board (the card's pins face toward the board). The board should **NOT** be powered on yet.
-* Power up the board by connecting your 2-3 A power cable to the USB-C port labeled "PWR" (see figure 3). The board's red LED should turn on.
+* Power up the board by connecting your 2-3 A power cable to the USB-C port labeled "PWR". The board's red LED should turn on.
+
+**Caution:** Do not attempt to power the board by connecting it to your computer.
+
+* 
 
 
 
