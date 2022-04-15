@@ -2,7 +2,7 @@
 
 The **AWFA** prototype device is using these materials:
 
-1. [Google Coral Dev Board](https://coral.ai/docs/dev-board/get-started) as a main processing / computing unit
+1. [Google Coral Dev Board](https://coral.ai/docs/dev-board/get-started) as a main processing / computing unit and for audio input using microphone, also for audio output directly to the speakers
 2. [Google Coral Camera Module](https://coral.ai/products/camera) for imaging (as a vision sensor)
 3. [Raspberry Pi 4G HAT](https://wiki.52pi.com/index.php?title=EP-0128) ; this HAT not using the GPIO but the USB connection. We don't need the fan for more compact size and less energy consumption.
 4. Huawei ME909s-821 mini PCIe module 4G LTE Cat4 GSM GPS FDD/TDD 150Mbps for 4G internet connection
@@ -11,7 +11,7 @@ The **AWFA** prototype device is using these materials:
 7. Stereo speakers ; for this project I use these [speakers](https://www.waveshare.com/wiki/WM8960_Audio_HAT) (without the module)
 
 
-#### 1.2. Flash the Google Coral Dev Board ####
+#### 1.1. Flash the Google Coral Dev Board ####
 
 * Download and unzip the SD card image: [enterprise-eagle-flashcard-20211117215217.zip](https://mendel-linux.org/images/enterprise/eagle/enterprise-eagle-flashcard-20211117215217.zip); The ZIP contains one file named `flashcard_arm64.img`
 * Use a program such as [balenaEtcher](https://www.balena.io/etcher/) to flash the `flashcard_arm64.img` file to your microSD card; but I prefer use [Raspberry Pi Imager](https://downloads.raspberrypi.org/imager/) for smaller download size. This takes 5-10 minutes, depending on the speed of your microSD card and adapter (I suggest to use a Class-10 U3 microSD or faster).
