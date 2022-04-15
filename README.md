@@ -18,7 +18,10 @@ The **AWFA** prototype device is using [Google Coral Dev Board](https://coral.ai
 * When the board boots up, it loads the SD card image and begins flashing the board's eMMC memory.  It should finish in 5-10 minutes, depending on the speed of your microSD card.  You'll know it's done when the board shuts down and the red LED turns off.
 * When the red LED turns off, unplug the power and remove the microSD card.
 * Change the boot mode switches to eMMC mode, as shown here:
-* 
+
+![](https://awfa.danito.id/images/awfa-google-coral-emmc-boot-mode-switch-640px.jpg)
+
+
 
 #### 1.19. Setting Virtual Environment, Install PIP and Install DataStax Python Driver ####
 
