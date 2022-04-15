@@ -14,13 +14,8 @@ The **AWFA** prototype device is using [Google Coral Dev Board](https://coral.ai
 ![](https://awfa.danito.id/images/awfa-google-coral-emmc-boot-mode-switch-640px.jpg)
 
 * Once the card is flashed, safely remove it from your computer and insert it into the Dev Board (the card's pins face toward the board). The board should **NOT** be powered on yet.
-* Power up the board by connecting your 2-3 A power cable to the USB-C port labeled "PWR". The board's red LED should turn on.
-
-**Caution:** Do not attempt to power the board by connecting it to your computer.
-
-* 
-
-
+* Power up the board by connecting your 2-3 A power cable to the USB-C port labeled "PWR". The board's red LED should turn on. **Caution:** Do not attempt to power the board by connecting it to your computer.
+* When the board boots up, it loads the SD card image and begins flashing the board's eMMC memory.  It should finish in 5-10 minutes, depending on the speed of your microSD card.  You'll know it's done when the board shuts down and the red LED turns off.
 
 #### 1.19. Setting Virtual Environment, Install PIP and Install DataStax Python Driver ####
 
