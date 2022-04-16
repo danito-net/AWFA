@@ -47,11 +47,11 @@ The **AWFA** prototype device is using these materials:
 
 * Verify the CP210x driver is working by running this command:
 
-    ls /dev/cu*
+    `ls /dev/cu*`
 
 ![](https://awfa.danito.id/images/awfa-ssh-via-serial-microusb-640px-1.jpg)
 
-You should see /dev/cu.SLAB_USBtoUART listed. If not, either there's a problem with your USB cable or the driver is not loaded. You can load the driver with sudo kextload /Library/Extensions/SiLabsUSBDriver.kext and then go to the system Security & Privacy preferences and click Allow. Also try unplugging the micro-USB cable on the Dev Board, then replug it and try again. Or, you also might need reboot your computer.
+You should see `/dev/cu.SLAB_USBtoUART` listed. If not, either there's a problem with your USB cable or the driver is not loaded. You can load the driver with `sudo kextload /Library/Extensions/SiLabsUSBDriver.kext` and then go to the system Security & Privacy preferences and click Allow. Also try unplugging the micro-USB cable on the Dev Board, then replug it and try again. Or, you also might need reboot your computer.
 
 ![](https://awfa.danito.id/images/awfa-ssh-via-serial-microusb-640px-2.jpg)
 
