@@ -38,11 +38,20 @@ The **AWFA** prototype device is using these materials:
 * Connect the board to power and it should now boot up Mendel Linux. Booting up for the first time after flashing takes about 3 minutes (subsequent boot times are much faster). 
 
 
-#### 1.2. Connecting SSH via Serial MicroUSB ####
+#### 1.2. Connecting SSH via Serial MicroUSB using macOS ####
+
+* Download the [CP210x driver](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip) for macOS; then unzip the ZIP file and install the driver
+* Connect your computer to the board with the micro-B USB cable, and connect the board to power, as shown here:
 
 ![](https://awfa.danito.id/images/awfa-ssh-via-serial-microusb-640px.jpg)
 
+* Verify the CP210x driver is working by running this command:
+
+    ls /dev/cu*
+
 ![](https://awfa.danito.id/images/awfa-ssh-via-serial-microusb-640px-1.jpg)
+
+You should see /dev/cu.SLAB_USBtoUART listed. If not, either there's a problem with your USB cable or the driver is not loaded. You can load the driver with sudo kextload /Library/Extensions/SiLabsUSBDriver.kext and then go to the system Security & Privacy preferences and click Allow. Also try unplugging the micro-USB cable on the Dev Board, then replug it and try again. Or, you also might need reboot your computer.
 
 ![](https://awfa.danito.id/images/awfa-ssh-via-serial-microusb-640px-2.jpg)
 
