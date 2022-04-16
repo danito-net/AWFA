@@ -8,7 +8,8 @@ The **AWFA** prototype device is using these materials:
 4. Huawei ME909s-821 mini PCIe module 4G LTE Cat4 GSM GPS FDD/TDD 150Mbps for 4G internet connection
 5. [UPS-18650 Lite](https://www.tindie.com/products/rachel/ups-18650-lite-a-power-platform-for-raspberry-pi/) ; We can use this Raspberry Pi's HAT power platform, because of Google Coral Dev Board is using the same GPIO pinout mapping as Raspberry Pi. Also we need two 18650 batteries with .
 6. [E108-GN02D](https://www.ebyte.com/en/product-view-news.html?id=1125) GPS Module (using serial connection to GPIO)
-7. Stereo speakers ; for this project I use these [speakers](https://www.waveshare.com/wiki/WM8960_Audio_HAT) (without the module)
+7. [USB Wireless Micro Router [GL-USB150](https://www.gl-inet.com/products/gl-usb150/)
+8. Stereo speakers (@ 1 Watt 8 Ohm) ; for this project I use these [speakers](https://www.waveshare.com/wm8960-audio-hat.htm) without the module
 
 
 #### 1.1. Flash the Google Coral Dev Board ####
