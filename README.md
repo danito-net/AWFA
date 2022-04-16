@@ -38,9 +38,9 @@ The **AWFA** prototype device is using these materials:
 
 
 
-#### 1.19. Setting Virtual Environment, Install PIP and Install DataStax Python Driver ####
+#### 1.2. Connecting SSH via Serial MicroUSB ####
 
-
+![](awfa-ssh-via-serial-microusb-640px.jpg)
 
 
 #### 1.19. Setting Virtual Environment, Install PIP and Install DataStax Python Driver ####
