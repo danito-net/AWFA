@@ -16,7 +16,7 @@ The **AWFA** prototype device is using these materials:
 * Download and unzip the SD card image: [enterprise-eagle-flashcard-20211117215217.zip](https://mendel-linux.org/images/enterprise/eagle/enterprise-eagle-flashcard-20211117215217.zip); The ZIP contains one file named `flashcard_arm64.img`
 * Use a program such as [balenaEtcher](https://www.balena.io/etcher/) to flash the `flashcard_arm64.img` file to your microSD card; but I prefer use [Raspberry Pi Imager](https://downloads.raspberrypi.org/imager/) for smaller download size. 
 
-![](https://awfa.danito.id/images/balena-etcher-vs-raspberry-pi-imager.png)
+![](https://awfa.danito.id/images/balena-etcher-vs-raspberry-pi-imager-480px.png)
 
 * This will takes about 5-10 minutes, depending on the speed of your microSD card and adapter (I suggest to use a Class-10 U3 microSD or faster).
 
